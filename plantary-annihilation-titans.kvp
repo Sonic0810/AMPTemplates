@@ -5,7 +5,7 @@ App.AppSettings=
 App.ApplicationIPBinding=0.0.0.0
 App.ApplicationReadyMode=Immediate
 App.BaseDirectory=./plantary-annihilation-titans/serverfiles/
-App.CommandLineArgs=OUTPUT=/srv/pa/output export MINIDUMP_DIRECTORY=$OUTPUT  mkdir -p $OUTPUT  /path/to/server \ --port 20545 \ --headless \ --allow-lan \ --mt-enabled \ --max-players 32 \ --max-spectators 5 \ --spectators 5 \ --empty-timeout 5 \ --replay-filename "UTCTIMESTAMP" \ --replay-timeout 180 \ --gameover-timeout 360 \ --server-name "AtomiServer" \ --game-mode "PAExpansion1:config" \ --output-dir $OUTPUT
+App.CommandLineArgs="Planetary Annihilation\Planetary Annihilation\stable\bin_x64\server.exe" ^ --port 20545 ^ --headless ^ --allow-lan ^ --mt-enabled ^ --max-players 32 ^ --max-spectators 5 ^ --spectators 5 ^ --empty-timeout 5 ^ --replay-filename "UTCTIMESTAMP" ^ --replay-timeout 180 ^ --gameover-timeout 360 ^ --server-name "server" ^ --game-mode "PAExpansion1:config" ^ --output-dir %OUTPUT%
 App.CommandLineParameterDelimiter= 
 App.CommandLineParameterFormat=-{0} "{1}"
 App.Compatibility=None
